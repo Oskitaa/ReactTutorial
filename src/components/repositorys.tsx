@@ -1,5 +1,5 @@
 import React , { useEffect,useState } from "react";
-
+import "../css/repository.scss";
 function Repository(){
 
     interface Repositorio{
