@@ -1,13 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Repository extends Component{
-
-    render(){
+function Repository(){
         return(
-            <h1>Hola, estas en repositiocio</h1>
+            <div>
+                <h1>Hola, estas en repositorio.</h1>
+            </div>
         )
-    };
-    
 }
 
 export default Repository;
