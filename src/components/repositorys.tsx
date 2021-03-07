@@ -27,7 +27,7 @@ function Repository(){
             {
                 repos.map( repo => (
                     <div>
-                        <p><a href={`${repo.html_url}`} target="blank" >{repo.name} </a>- <span>{new Date(repo.created_at).getFullYear()}</span></p>
+                        <p className="title_repo"><a href={`${repo.html_url}`} target="blank" >{repo.name} </a> - <span>{new Date(repo.created_at).getFullYear()}</span></p>
                         <p>{repo.description}</p>
                     </div>
                     
